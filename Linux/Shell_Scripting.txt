@@ -1,0 +1,102 @@
+1. What is Shell in Linux
+
+In this guide, let's learn about the shell which is an important part of the Linux operating system which interprets and passes  the commands you provide on your keyboard  to the operating system to perform some specific tasks
+https://t.co/4WK7cAPz8k
+
+
+2. Bash variable assignment
+
+A variable is a named storage location in a program's memory where a value can be stored, retrieved, and manipulated. Like any programming language, Variables are an essential component in the Bash scripts. 
+https://t.co/Hr5WXWpzsx
+
+Bash let with Examples
+
+In bash, all variables are treated as strings. You cannot perform arithmetic operations on variables as you would normally do in other programming languages since bash interprets them as strings. To overcome this, bash has a built-in tool named let. Using the let command, you can declare a variable and perform arithmetic operations during the assignment. 
+
+https://t.co/GRQZqA8IWk
+
+3.  Bash expr with Examples
+
+As we know bash variables are of string data type, performing arithmetic operations aren’t straightforward. However, bash provides us with several utilities to carry out arithmetic evaluations. One such command line tool is expr. Using the expr command, you can evaluate any given expression and display the result on the standard output.
+
+https://t.co/1dwHddHbzj
+
+4. Bash Division Explained
+
+We cannot divide numbers directly in Bash as they would be treated as strings. However, Bash provides a lot of tools and commands to perform arithmetic division.
+In this guide, we are going to learn about different ways to divide with variables. We will also focus on the advantages and limitations of some of the commonly used methods. Furthermore, we will learn how to round the result of division.
+
+https://t.co/njocPJmh5Z
+
+5. Bash readarray with Examples
+
+In every programming language, the term array means a collection of items that holds some data. The data would be in an indexed manner.
+The unique property bash array is that it can save different types of elements. In this tutorial, we are going to learn about readarray. 
+
+https://t.co/byiL8ioPAO
+
+6. Loop through lines in a file using bash loops
+
+The most efficient way to process any file, one line at a time, is to develop a bash script and give the file as input to the script. This can be done by reading a file line by line by iterating the lines over a loop.
+Bash treats each line as an element in a list. Understanding how to process the contents of a large data file one line at a time saves us from constantly opening them. There are many ways of reading each line using Bash. 
+
+https://t.co/K4HOWBZpY1
+
+7. Bash Modulo (Division Remainder)
+
+Many times we are only interested in what the remainder is. The mod operator finds use in generating random numbers within a specific range and formatting program output.
+It can even be used to generate prime numbers, check if a number is odd or even. Modulo turns up often in the majority of the numerical computations.
+In this article, we will learn about the modulus operations in bash. 
+
+https://t.co/zuL50OVHFY
+
+8. Bash While Read Line by Line
+
+When it comes to text processing or filtering logs, it becomes important to read the contents line by line. Using the bash while loop you can read the contents one line at a time and use it as per our needs.
+We can read from a file, a command and from a variable. We can even read lines into multiple variables.  
+
+https://t.co/1hguqbDqDE
+
+9. Bash shift Command
+
+Does your script accept a variable number of arguments? To easily process each argument, bash has shift command.
+
+The command allows you to shift the positional parameters passed to a script.
+
+In this tutorial, we learn about bash shift command with examples.
+
+https://t.co/uVLNXasZCP
+
+10. 4 Ways to Check Which Shell You are Using on Linux 
+
+Out of the box, Linux provides a wide variety of shells. There is bash (Bourne Again shell) shell which ships by default in many Linux distributions.
+We also have sh (Bourne Shell), tcsh (TC shell), csh (C shell), Zsh (Z shell) and ksh (Korn  Shell).
+Curious to know which shell you are using on your Linux system? In this guide, we explore different ways that you can use to check which shell you are currently using in Linux. 
+
+https://t.co/hY4Cw5IXCu
+
+11. Understanding Different Types of Shells in Linux 
+
+the Linux realm, there are multiple shells available, each with its own unique features and capabilities to cater to the varying needs and also preferences of the user.
+For instance, the Bourne shell (sh) offers a minimalist set of features for shell scripting, while the Z shell (zsh) offers some advanced ones such as extended globbing and spelling correction.
+
+Therefore, choosing the shell can be subjective based on the task at hand and the specific requirements. 
+
+Although it's not necessary to learn all shells, acquiring knowledge on multiple ones can be necessary to improve efficiency....
+(one shell for scripting and the other for interactive use) and to increase functionality (taking advantage of the best feature in each shell). 
+
+https://t.co/oIsm5skZtS
+
+12. Shell Script to Check Linux Server Health 
+
+In this tutorial, we will show how to write a shell script to perform a Linux server health check. This script collects system information and status like hostname, kernel version, uptime, CPU, memory, and disk usage.
+
+https://t.co/iNgdvwp6Xo
+
+13. Bash Command Line Chain Operators in Linux with Examples 
+
+Linux command chaining is a technique of combining several commands so that each of them can execute after the other based on the operator between them.
+The operator that separates these commands is the most important aspect of command line chaining. These operators control how these commands get executed.
+To reword, they control the flow of execution. Linux command chaining is very useful if you want to execute multiple commands at one goal. 
+
+https://t.co/wxBtg9Zvjd
