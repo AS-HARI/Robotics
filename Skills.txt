@@ -1,1 +1,19 @@
 git,slam,navigation stack,tools,parallel computing,threads,monitor,gpus,python,autonomous operation,avx,robot software platforms,path planning,scripting languages,autonomous navigation,parallelization,libraries,100+ robots,robotics operating system,multi-core architectures,robotic manipulation,maintain,open source projects,operations research,robot arms,motion planning,network communication,computational geometry,mobile robots,software,cloud computing,deploy software,speeding up algorithms,ros,grippers,cpus,cutting-edge robotics technology,computer vision,mobile manipulators,c++,machine learning,linux,robots
+
+
+Bosch
+Basic:
+
+Strong C++ experience (boost libraries, C++11 or above)
+Good understanding of ROS / ROS2.0 architecture
+Clear understanding on Robotic navigation, mapping, SLAM etc
+Familiar with implementing FSM
+Experience in ROS tools (Gazebo, Rviz..)
+Good Mathematics and Physics knowledge
+Experience with Version control concepts and software (any of svn, git, ClearCase)
+Desirable:
+
+Experience in C++ 11.0 and above standards
+Python experience
+Unit testing – Gtest, ROSTest
+Experience working with differential drive robots
