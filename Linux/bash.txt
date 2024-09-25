@@ -1,0 +1,40 @@
+
+### Special folders and placeholders
+
+**Placeholder ------------- Meaning**
+
+* ------------------------- Any set of characters
+? ------------------------- Any single character
+[a-f] --------------------- Characters in [abcdef]
+[^a-c] -------------------- Any character not in [abc]
+
+**Special symbols   ---------------- Meaning**
+
+~ ---------------------------------- Current user home folder
+. ---------------------------------- The current folder
+.. --------------------------------- The parent folder
+
+---------------------------------------------------------------------------------------
+
+Standard input/output channels
+Single input channel: stdin
+
+Two output channels:
+
+stdout: Standard output: channel 1
+stderr: Standard error output: channel 2
+Redirecting stdout
+
+command 1> out.txt
+command >> out.txt
+Redirecting stderr
+
+command 2> out.txt
+Redirect stdout and stderr into a file
+
+program > out.txt 2>&1
+Write stdout and stderr into different files
+
+program 1>stdout.txt 2>stderr.txt
+
+---------------------------------------------------------------------------------------

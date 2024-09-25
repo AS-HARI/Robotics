@@ -1,0 +1,56 @@
+Steps for Time Sync
+---------------------------------------------------------------------------------
+NUC:
+
+sudo apt update
+sudo apt install ntpdate
+sudo apt-get install chrony
+
+
+sudo nano /etc/chrony/chrony.conf
+
+( Add these two lines in the file)
+local stratum 8
+allow <IP_of_xavier>
+
+sudo /etc/init.d/chrony restart
+
+-----------------------------------------------------------------------------------
+
+XAVIER:
+
+
+
+sudo apt update
+sudo apt install ntpdate
+sudo apt-get install chrony
+
+
+sudo nano /etc/chrony/chrony.conf
+
+server <IP_DFI> minpoll 0 maxpoll 5 maxdelay 0.05
+
+sudo /etc/init.d/chrony restart
+
+------------------------------------------------------------------------------------
+
+
+RUN IN XAVIER TO CHECK THE SYNC
+
+
+ntpdate -q <IP_DFI>
+
+If offset is more try running these or otherwise all good
+
+(Order 
+1st DFI 2nd XAVIER)
+
+sudo /etc/init.d/chrony start
+sudo /etc/init.d/chrony stop
+
+
+
+
+
+
+
